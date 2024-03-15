@@ -31,6 +31,20 @@
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_221212_micro_3> ; 
 .
 
+<#pressure>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'Expected 12-2024'^^xsd:string ; 
+        qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
+    ] ;
+    schema:measurementTechnique 'CTD'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_221212_micro_3> ; 
+.
+
 <#redox_potential>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ;

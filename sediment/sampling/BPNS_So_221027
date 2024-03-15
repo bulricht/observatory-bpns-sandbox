@@ -19,7 +19,7 @@
         rdfs:label 'SoSOP3'^^xsd:string ;
         rdfs:comment 'Problem with underway data'^^xsd:string ; 
         ] ; 
-    emobon:tidalStage ''^^xsd:string ;
+    emobon:tidalStage 'Expected 2024-12-31'^^xsd:string ;
     emobon:samplingDepth '20'^^xsd:string ; 
     emobon:waterColumnDepth '26'^^xsd:string ; 
     emobon:originCountry 'Belgium'^^xsd:string ; 

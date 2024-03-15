@@ -10,7 +10,7 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '9.149678'^^xsd:string ; 
+        qudt:numericValue '-1.8901'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -24,10 +24,24 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '6.6'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit 'NA'^^xsd:string ; 
     ] ;
-    schema:measurementTechnique 'LLG PH METER 5'^^xsd:string ;
+    schema:measurementTechnique 'no pH measured'^^xsd:string ;
+    sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_221212_micro_1> ; 
+.
+
+<#pressure>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
+    
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
+        qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
+    ] ;
+    schema:measurementTechnique 'problem with underway data'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_221212_micro_1> ; 
 .
 
@@ -52,7 +66,7 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '32.018'^^xsd:string ; 
+        qudt:numericValue '33.238'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -66,7 +80,7 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '9.135'^^xsd:string ; 
+        qudt:numericValue '6.812'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -80,7 +94,7 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '7.8'^^xsd:string ; 
+        qudt:numericValue '7.326'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;

@@ -19,7 +19,8 @@
         rdfs:label 'SoSOP3'^^xsd:string ;
         rdfs:comment 'NA'^^xsd:string ; 
         ] ; 
-    emobon:tidalStage ''^^xsd:string ;
+    emobon:tidalStage 'Expected 2024-12-31'^^xsd:string ;
+    emobon:samplingDepth 'Expected 2024-12-31'^^xsd:string ; 
     emobon:waterColumnDepth '26'^^xsd:string ; 
     emobon:originCountry 'Belgium'^^xsd:string ; 
     
@@ -47,6 +48,7 @@
     dct:description 'EMOBON mimarks-specimen sediment sample from station BPNS collected on 2023-06-21 community collected meio'^^xsd:string ;
     emobon:enaSampleAccNum 'NA'^^xsd:anyURI ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:sampleDepth 'Expected 2024-12-31'^^xsd:string ;
     emobon:hasSampleSize 'NA'^^xsd:string ; 
     emobon:upperFilterSize 'NA'^^xsd:string ; 
     emobon:lowerFilterSize '0.32'^^xsd:string ; 

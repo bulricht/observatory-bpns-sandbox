@@ -10,7 +10,7 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'to be analysed'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'HPLC'^^xsd:string ;

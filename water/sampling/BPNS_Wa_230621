@@ -40,7 +40,7 @@
 </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230621_200um_blank>
     a sosa:Sample, prov:Entity ;
     
-    rdfs:label 'EMOBON 230622 BPNS Wa 200 Blank'^^xsd:string ; 
+    rdfs:label 'EMOBON 230621 BPNS Wa 200 Blank'^^xsd:string ; 
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2023-06-21 size fraction >200um'^^xsd:string ;
     emobon:enaSampleAccNum 'NA'^^xsd:anyURI ;
     emobon:sampleReplicate 'blank'^^xsd:string ;

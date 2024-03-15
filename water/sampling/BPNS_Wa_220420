@@ -17,7 +17,7 @@
         rdfs:label 'WaSOP3'^^xsd:string ;
         rdfs:comment 'Failed; extreme bloom conditions'^^xsd:string ; 
         ] ;  
-    emobon:tidalStage ''^^xsd:string ;
+    emobon:tidalStage 'ebb_tide'^^xsd:string ;
     emobon:samplingDepth 'NA'^^xsd:string ; 
     emobon:waterColumnDepth '26'^^xsd:string ; 
     emobon:originCountry 'Belgium'^^xsd:string ; 

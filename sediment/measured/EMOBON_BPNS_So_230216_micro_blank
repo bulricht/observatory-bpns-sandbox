@@ -10,10 +10,10 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '-1.8901'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
-    schema:measurementTechnique 'CTD'^^xsd:string ;
+    schema:measurementTechnique 'waves too high, no CTD possible'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_230216_micro_blank> ; 
 .
 
@@ -41,7 +41,7 @@
         qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
-    schema:measurementTechnique 'problem with underway data'^^xsd:string ;
+    schema:measurementTechnique 'waves too high, no CTD possible'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_230216_micro_blank> ; 
 .
 
@@ -66,10 +66,10 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '33.238'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
-    schema:measurementTechnique 'CTD'^^xsd:string ;
+    schema:measurementTechnique 'waves too high, no CTD possible'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_230216_micro_blank> ; 
 .
 
@@ -80,10 +80,10 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '6.812'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
-    schema:measurementTechnique 'CTD'^^xsd:string ;
+    schema:measurementTechnique 'waves too high, no CTD possible'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_230216_micro_blank> ; 
 .
 
@@ -94,9 +94,9 @@
     sosa:hasResult [
         a sosa:Result ; 
         rdf:type qudt:QuantityValue ; 
-        qudt:numericValue '7.326'^^xsd:string ; 
+        qudt:numericValue 'NA'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
-    schema:measurementTechnique 'CTD'^^xsd:string ;
+    schema:measurementTechnique 'waves too high, no CTD possible'^^xsd:string ;
     sosa:hasFeatureOfInterest </emobon/sample/BPNS/sediment/EMOBON_BPNS_So_230216_micro_blank> ; 
 .
