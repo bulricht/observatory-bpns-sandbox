@@ -59,8 +59,8 @@
     emobon:sampleDepth '18.66'^^xsd:string ;
     emobon:hasSampleSize '10'^^xsd:string ; 
     emobon:filterSizeRange '3-200'^^xsd:string ;
-    emobon:upperFilterSize '3'^^xsd:string ; 
-    emobon:lowerFilterSize '200'^^xsd:string ; 
+    emobon:upperFilterSize '200'^^xsd:string ; 
+    emobon:lowerFilterSize '3'^^xsd:string ; 
     emobon:filtrationTime '0.25'^^xsd:string ;
     
     sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;

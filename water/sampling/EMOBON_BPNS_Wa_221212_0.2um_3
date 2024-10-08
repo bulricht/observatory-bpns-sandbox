@@ -28,7 +28,7 @@
         a sosa:Procedure ;
         rdfs:label 'WaSOP1'^^xsd:string ;
         ] ;
-    emobon:tidalStage ''^^xsd:string ;
+    emobon:tidalStage 'flood_tide'^^xsd:string ;
     emobon:samplingDepth '20'^^xsd:string ; 
     emobon:waterColumnDepth '26'^^xsd:string ; 
     emobon:originCountry 'Belgium'^^xsd:string ;
@@ -55,11 +55,12 @@
     rdfs:label 'EMOBON 221212 BPNS Wa 0.2 R3'^^xsd:string ;
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2022-12-12 size fraction 0.2-3um'^^xsd:string ;
     emobon:sampleReplicate '3'^^xsd:string ;
+    emobon:failure 'false'^^xsd:boolean ;
     emobon:sampleDepth '20'^^xsd:string ;
     emobon:hasSampleSize '10'^^xsd:string ; 
     emobon:filterSizeRange '0.2-3'^^xsd:string ;
-    emobon:upperFilterSize '0.2'^^xsd:string ; 
-    emobon:lowerFilterSize '3'^^xsd:string ; 
+    emobon:upperFilterSize '3'^^xsd:string ; 
+    emobon:lowerFilterSize '0.2'^^xsd:string ; 
     emobon:filtrationTime '1'^^xsd:string ;
     
     sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;

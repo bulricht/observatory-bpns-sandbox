@@ -53,12 +53,13 @@
     a sosa:Sample, prov:Entity ;
     
     rdfs:label 'EMOBON 220819 BPNS Wa 20 R2'^^xsd:string ;
-    dct:description 'EMOBON metagenome water sample from station BPNS collected on 2022-08-19 size fraction >20um'^^xsd:string ;
+    dct:description 'EMOBON metagenome water sample from station BPNS collected on 2022-08-19 size fraction 20um'^^xsd:string ;
     emobon:sampleReplicate '2'^^xsd:string ;
+    emobon:failure 'false'^^xsd:boolean ;
     emobon:sampleDepth '19.9'^^xsd:string ;
     emobon:hasSampleSize '0.25'^^xsd:string ; 
-    emobon:filterSizeRange '>20'^^xsd:string ;
-    emobon:upperFilterSize '20'^^xsd:string ; 
+    emobon:filterSizeRange '20'^^xsd:string ;
+    emobon:lowerFilterSize '20'^^xsd:string ; 
     emobon:filtrationTime '0.25'^^xsd:string ;
     
     sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;
